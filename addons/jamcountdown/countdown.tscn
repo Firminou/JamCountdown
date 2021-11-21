@@ -44,11 +44,9 @@ script = ExtResource( 1 )
 __meta__ = {
 "_edit_use_anchors_": false
 }
-jam_title = "Fall of the roman empire"
-year = 476
-month = 9
-day = 4
-hour = 12
+jam_title = "IGDB #001"
+day = 22
+hour = 0
 minute = 0
 
 [node name="HBoxContainer" type="HBoxContainer" parent="."]
@@ -65,21 +63,20 @@ __meta__ = {
 }
 
 [node name="TitleLabel" type="Label" parent="HBoxContainer"]
-margin_left = 60.0
-margin_right = 123.0
+margin_left = 92.0
+margin_right = 92.0
 margin_bottom = 22.0
 size_flags_horizontal = 5
 size_flags_vertical = 5
 custom_colors/font_color = Color( 1, 1, 1, 1 )
 custom_fonts/font = SubResource( 3 )
-text = "GameJam"
 __meta__ = {
 "_edit_use_anchors_": false
 }
 
 [node name="CountdownLabel" type="Label" parent="HBoxContainer"]
-margin_left = 127.0
-margin_right = 127.0
+margin_left = 96.0
+margin_right = 96.0
 margin_bottom = 22.0
 grow_horizontal = 0
 size_flags_horizontal = 5
