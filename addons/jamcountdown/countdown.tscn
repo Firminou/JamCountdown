@@ -1,8 +1,8 @@
 [gd_scene load_steps=8 format=2]
 
 [ext_resource path="res://addons/jamcountdown/countdown.gd" type="Script" id=1]
-[ext_resource path="res://addons/jamcountdown/Roboto-Bold.ttf" type="DynamicFontData" id=2]
-[ext_resource path="res://addons/jamcountdown/Roboto-Light.ttf" type="DynamicFontData" id=3]
+[ext_resource path="res://addons/jamcountdown/Hack-Bold.ttf" type="DynamicFontData" id=2]
+[ext_resource path="res://addons/jamcountdown/Hack-Regular.ttf" type="DynamicFontData" id=3]
 
 [sub_resource type="StyleBoxFlat" id=1]
 content_margin_left = 5.0
@@ -12,7 +12,7 @@ border_width_left = 1
 border_width_top = 1
 border_width_right = 1
 border_width_bottom = 1
-border_color = Color( 1, 1, 1, 0.882353 )
+border_color = Color( 0.8, 0.141176, 0.113725, 0.996078 )
 corner_radius_top_left = 8
 corner_radius_top_right = 8
 corner_radius_bottom_right = 8
@@ -44,9 +44,12 @@ script = ExtResource( 1 )
 __meta__ = {
 "_edit_use_anchors_": false
 }
-day = 11
+jam_title = "Fall of the roman empire"
+year = 476
+month = 9
+day = 4
 hour = 12
-minute = 17
+minute = 0
 
 [node name="HBoxContainer" type="HBoxContainer" parent="."]
 margin_left = 5.0
@@ -62,28 +65,27 @@ __meta__ = {
 }
 
 [node name="TitleLabel" type="Label" parent="HBoxContainer"]
-margin_left = 26.0
-margin_right = 94.0
+margin_left = 60.0
+margin_right = 123.0
 margin_bottom = 22.0
 size_flags_horizontal = 5
 size_flags_vertical = 5
-custom_fonts/font = SubResource( 3 )
 custom_colors/font_color = Color( 1, 1, 1, 1 )
+custom_fonts/font = SubResource( 3 )
 text = "GameJam"
 __meta__ = {
 "_edit_use_anchors_": false
 }
 
 [node name="CountdownLabel" type="Label" parent="HBoxContainer"]
-margin_left = 98.0
-margin_right = 161.0
+margin_left = 127.0
+margin_right = 127.0
 margin_bottom = 22.0
 grow_horizontal = 0
 size_flags_horizontal = 5
 size_flags_vertical = 3
-custom_fonts/font = SubResource( 4 )
 custom_colors/font_color = Color( 1, 1, 1, 1 )
-text = "35m:15s"
+custom_fonts/font = SubResource( 4 )
 __meta__ = {
 "_edit_use_anchors_": false
 }
